@@ -12,13 +12,22 @@ bREPL is Node.js repl that has few libraries and utility functions added to cont
 Using npm:
 
 ```
-$ npm install brepl
+$ npm install -g brepl
 ```
 Using yarn:
 
 ```
-$ yarn add brepl
+$ yarn global add brepl
 ```
+
+## Usage
+
+Run 
+```
+brepl
+```
+in terminal
+
 ## How it works
 
 Uses built in Node.js Repl mode, but extends context with following libraries

@@ -31,5 +31,8 @@
   },
   "bugs": {
     "url": "https://github.com/ibiliskov/brepl/issues"
+  },
+  "bin": {
+    "brepl": "src/cli.js"
   }
 }
