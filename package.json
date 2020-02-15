@@ -1,0 +1,31 @@
+{
+  "name": "brepl",
+  "version": "1.0.0",
+  "description": "Node.js REPL with few libraries pre-loaded in context",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "version": "conventional-changelog -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
+  "author": "Ivan Biliskov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.19.2",
+    "fs-extra": "^8.1.0",
+    "lodash": "^4.17.15",
+    "moment": "^2.24.0"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "2.0.31"
+  },
+  "keywords": [
+    "repl",
+    "context",
+    "node repl",
+    "node repl context"
+  ],
+  "homepage": "https://github.com/ibiliskov/brepl",
+  "repository": {
+    "url": "https://github.com/ibiliskov/brepl"
+  }
+}
