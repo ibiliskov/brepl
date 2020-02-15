@@ -1,6 +1,6 @@
 {
   "name": "brepl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Node.js REPL with few libraries pre-loaded in context",
   "main": "src/index.js",
   "scripts": {
