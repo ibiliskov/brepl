@@ -26,6 +26,10 @@
   ],
   "homepage": "https://github.com/ibiliskov/brepl",
   "repository": {
-    "url": "https://github.com/ibiliskov/brepl"
+    "type": "git",
+    "url": "git+https://github.com/ibiliskov/brepl"
+  },
+  "bugs": {
+    "url": "https://github.com/ibiliskov/brepl/issues"
   }
 }
